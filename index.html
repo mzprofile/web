@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masum Zubayer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">    
+    <header class="header">
+        <div class="nav">
+            <div class="nav-photo">
+                <a href="#mz-main">
+                    <img src="logo.png" alt="mz">
+                </a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                &#9776;
+            </div>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <li><a href="#mz-main">MZ</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="wlc">
+            <h1> Welcome to</h1>
+            <h3>My Little world</h3>
+        </div>
+        
+        <div id="mz-main">
+            <hr style="height: 3px; background-color: #ffffff; border: none; border-radius: 3px; margin: 15px;">
+            <div class="title">
+                <h5>Profile</h5>
+            </div>
+            <div class="mz-main">
+                <div class="mz-txt">
+                    <h1>Masum Zubayer</h1>
+                    <h3>Learner | Programmar | Dreamer</h3>
+                    <hr style="height: 3px; background-color: #fff; border: none; border-radius: 3px; max-width: 200px; margin: 15px 0px 15px 0px;">
+                    <p>
+                        Accepting the worst time of my life. My hobbies include: pretending to be busy, making unusual websites, and pretending my life is a series. Currently binge-watching the latest season of "Why am I still single in 2024?"  🙄✨
+                    </p>
+                    <hr style="height: 3px; background-color: #fff; border: none; border-radius: 3px; max-width: 150px; margin: 15px 0px 15px 0px;">
+                    <div class="mz-links">
+                        <a href="https://api.whatsapp.com/send/?phone=%2B8801768949586&text&type=phone_number&app_absent=0" target="_blank"> Let's talk <span>↗</span></a>
+                    </div>
+                </div>
+                <div class="mz-img">
+                    <img src="profile.png" alt="MZ">
+                </div>
+            </div>
+        </div>
+
+        <hr style="height: 3px; background-color: #ffffff; border: none; border-radius: 3px; margin: 15px;">
+        <div class="title">
+            <h5>Gallery</h5>
+        </div>
+        <div id="gallery">
+            <div class="sl-main">
+                <div class="slider-head">
+                    <h1>
+                        Explore
+                    </h1>
+                    <h3>
+                        My Photos
+                    </h3>
+                </div>
+
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide"><img src="img1.jpg" alt="Image 1"></div>
+                        <div class="slide"><img src="img2.jpg" alt="Image 1"></div>
+                        <div class="slide"><img src="img3.jpg" alt="Image 1"></div>
+                        <div class="slide"><img src="img4.jpg" alt="Image 1"></div>
+                        <div class="slide"><img src="img5.jpg" alt="Image 1"></div>
+                        <div class="slide"><img src="img6.jpg" alt="Image 1"></div>
+                        <div class="slide"><img src="img7.jpg" alt="Image 1"></div>
+                        <div class="slide"><img src="img8.jpg" alt="Image 1"></div>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                </div>
+            </div>
+        </div>
+        <hr style="height: 3px; background-color: #ffffff; border: none; border-radius: 3px; margin: 15px;">
+        <div class="title">
+            <h5>Contact</h5>
+        </div>
+        <div id="Contact">
+            <div class="li-container">
+                <div class="li-btn">
+                    <button class="button" onclick="redirectToFacebook()">
+                        <i class="fa-brands fa-facebook"></i>
+                    </button>
+                    <button class="button" onclick="redirectToInstagram()" type="button">
+                        <i class="fa-brands fa-instagram"></i>
+                    </button>
+                    <button class="button" onclick="redirectToTwitter()" type="button">
+                        <i class="fa-brands fa-twitter"></i>
+                    </button>
+                    <button class="button" onclick="redirectToWhatsapp()" type="button">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </button>
+                    <button class="button" onclick="redirectToLinkedin()" type="button">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </button>
+                    <button class="button" onclick="redirectToPinterest()" type="button">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </button>
+                    <button class="button" onclick="redirectToTiktok()" type="button">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
